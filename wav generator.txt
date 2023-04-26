@@ -1,0 +1,5 @@
+samplerate = 44100; fs = 100
+t = np.linspace(0., 1., samplerate)
+amplitude = np.iinfo(np.int16).max
+data = amplitude * (np.sin(np.cos(2. * np.pi * fs * t)) + np.cos(6. * np.pi * fs * t))
+write("example.wav", int(samplerate/10), data.astype(np.int16))
