@@ -1,5 +1,4 @@
-Time,Channel A,Channel B
-(ms),(mV),(V)
+Time (ms),Channel A (mV),Channel B (V)
 
 -9.68703907,-29.23673000,-0.04434339
 -9.68191907,-29.23673000,-0.05313272
